@@ -1,0 +1,108 @@
+header{
+
+}
+header div.flex{
+  height: 101px;
+  width: calc(100% - 90px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+header div.flex h1{  
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  width: 144px;
+  transform: translateX(-100px);
+}
+header div.flex ul{ 
+  display: flex;
+}
+header div.flex ul div#a{  
+  display: flex;
+  transform: translateX(-130px);
+}
+header div.flex ul div#a li{ 
+  margin: 0;
+  padding: 8px 30px 9px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+header div.flex ul div#a li:nth-child(6){
+  
+  padding-right: 59px;
+}
+header div.flex ul div#a li:nth-child(7){
+  padding-left: 59px;
+  padding-right: 0;
+  position: relative;
+}
+header div.flex ul div#a li:nth-child(7)::before{
+  content:"";
+  height: 15px;
+  border-left: 1px solid;
+  display: block;
+  position: absolute;
+  left: -5px;
+  top: 12px;
+}
+header div.flex ul div#a li a{
+    
+}
+header div.flex ul div#b{  
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0;
+  color: #666;
+  gap: 20px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  transform: translateX(80px);
+}
+header div.flex ul div#b li{
+    
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px;
+  color: #666;
+}
+header div.flex ul div#b li:nth-child(2){
+  position: relative;
+  padding-left: 25px;
+}
+header div.flex ul div#b li:nth-child(2)::before{
+    content:"";
+    display: block;
+    height: 10px;
+    border-left: 1px solid;
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    /*! margin: 2px 29px 0; */
+}
+header div.flex ul div#b li a{
+    
+}
+header div.flex ul div#b li:nth-child(3) a{
+  background-image: url(../img/search.png);
+  width: 27px;
+  height: 27px;
+}
+header div.flex ul div#b li:nth-child(4) a{
+  background-image: url(../img/my.png);
+  width: 26px;
+  height: 29px;
+}
+header div.flex ul div#b li:nth-child(5) a{
+  background-image: url(../img/cart.png);
+  width: 25px;
+  height: 31px;
+}

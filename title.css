@@ -1,0 +1,75 @@
+div#title1{
+  position: relative;
+}
+div#title1 .slick-prev{
+  width: auto;
+  height: auto;
+  left: 60px;
+  z-index: 1;
+}
+div#title1 div.wrap ul.titleani .slick-prev::before{
+  content:"";
+  display: block;
+  background-image: url(../img/prev.png);
+  width: 80px;
+  height: 17px;
+  opacity: 0;
+}
+div#title1 div.wrap ul.titleani:hover .slick-prev::before{
+  opacity: 1;
+}
+div#title1 .slick-next{
+  width: auto;
+  height: auto;
+  right: 60px;
+}
+div#title1 div.wrap ul.titleani .slick-next::before{
+  content:"";
+  display: block;
+  background-image: url(../img/next.png);
+  width: 80px;
+  height: 17px;
+  opacity: 0;
+}
+div#title1 div.wrap ul.titleani:hover .slick-next::before{
+opacity: 1;
+}
+div#title1 .wrap{
+ max-width: 100%;
+}
+div#title1 .wrap ul{
+    
+}
+div#title1 .wrap ul .slick-dots{
+  bottom:50px;
+}
+div#title1 .wrap ul li{
+  position: relative;
+}
+div#title1 .wrap ul li .wrapText{
+  position: absolute;
+  padding: 0 100px;
+  width: 100%;
+  max-width: 1600px;
+  top: calc(50% + 250px);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  left: 50%;
+  text-align: left;
+}
+div#title1 .wrap ul li h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+div#title1 .wrap ul li p{
+  font-size: 65px;
+  line-height: 1.23;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+div#title1 .wrap ul li a{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.23;
+  padding-top: 8px;
+}
